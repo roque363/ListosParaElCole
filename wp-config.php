@@ -13,6 +13,9 @@
  *
  * @package WordPress
  */
+/** ambiar WordPress URL */ 
+define('WP_HOME','https://supply-store-wordpress-roque363.c9users.io/');
+define('WP_SITEURL','https://supply-store-wordpress-roque363.c9users.io/');
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
