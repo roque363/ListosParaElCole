@@ -3,8 +3,8 @@
 Contributors: yithemes
 Tags: request a quote button, woocommerce request for quote, woocommerce request a quote shortcode, request a quote, quote, yithemes, woocommerce, shop, ecommerce, e-commerce, quotations, request for quote, rfq, raq, proposal, ask an estimate, budget, email quote
 Requires at least: 4.0.0
-Tested up to: 4.9.2
-Stable tag: 1.3.4
+Tested up to: 4.9.6
+Stable tag: 1.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,7 +37,7 @@ Negotiation becomes possible and this can definitely increase purchases in your 
 
 = Official documentation of YITH WooCommerce Request a Quote =
 
-For a more detailed description of options and features of YITH WooCommerce Request a Quote, please, read the [official documentation](http://yithemes.com/docs-plugins/yith-woocommerce-request-a-quote/ "YITH Woocommerce Request A Quote official documentation").
+For a more detailed description of options and features of YITH WooCommerce Request a Quote, please, read the [official documentation](https://docs.yithemes.com/yith-woocommerce-request-a-quote/ "YITH Woocommerce Request A Quote official documentation").
 
 = Compatibility with WooCommerce plugins =
 
@@ -110,7 +110,7 @@ You can get more features with the premium version of YITH WooCommerce Request a
 
 = How can I try the full-featured plugin? =
 
-If you want to see a demonstration version of the premium plugin, you can see that in [this page](http://plugins.yithemes.com/yith-woocommerce-request-a-quote/). Browse it and try all options available so that you can see how your plugin looks like.
+If you want to see a demonstration version of the premium plugin, you can see that in [this page](https://plugins.yithemes.com/yith-woocommerce-request-a-quote/). Browse it and try all options available so that you can see how your plugin looks like.
 
 = What are the main changes in plugin translation? =
 Recently YITH Woocommerce Request A Quote A has been selected to be included in the "translate.wordpress.org" translate programme.
@@ -129,6 +129,12 @@ During this transition step, .po and .mo files will be used as always, but in or
 4. "Request a Quote" Email - Settings page
 
 == Changelog ==
+= 1.3.5 - Released: May 10, 2018 =
+New: Support to WooCommerce 3.4.0 RC1
+New: Support to Wordpress 4.9.6 Beta 2
+New: Added Privacy Policy checkbox for General Data Protection Regulation (GDPR) compliance
+Update: Plugin Core 3.0.15
+
 = 1.3.4 - Released: Jan 31, 2018 =
 New: Support to WooCommerce 3.3.x
 Update: Plugin Core 3.0.11

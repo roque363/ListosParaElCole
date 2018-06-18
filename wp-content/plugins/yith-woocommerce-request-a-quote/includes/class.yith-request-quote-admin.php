@@ -51,7 +51,7 @@ if ( !class_exists( 'YITH_YWRAQ_Admin' ) ) {
         /**
          * @var string Doc Url
          */
-        public $doc_url = 'https://yithemes.com/docs-plugins/yith-woocommerce-request-a-quote/';
+        public $doc_url = 'https://docs.yithemes.com/yith-woocommerce-request-a-quote/';
 
 
         /**

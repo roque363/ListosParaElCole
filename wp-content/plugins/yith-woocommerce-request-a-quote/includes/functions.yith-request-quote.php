@@ -386,3 +386,18 @@ function ywraq_verify_token( $token, $action, $order_id, $email){
 function ywraq_get_browse_list_message(){
     return apply_filters( 'ywraq_product_added_view_browse_list' , __( 'Browse the list', 'yith-woocommerce-request-a-quote' ) );
 }
+
+if ( ! function_exists( 'ywraq_replace_policy_page_link_placeholders' ) ) {
+	/**
+	 * Replaces placeholders with links to WooCommerce policy pages.
+	 *
+	 * @since 1.3.5
+	 *
+	 * @param string $text Text to find/replace within.
+	 *
+	 * @return string
+	 */
+	function ywraq_replace_policy_page_link_placeholders( $text ) {
+		return function_exists( 'wc_replace_policy_page_link_placeholders' ) ? wc_replace_policy_page_link_placeholders( $text ) : $text;
+	}
+}

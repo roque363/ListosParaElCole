@@ -37,6 +37,21 @@ $user_email = ( ! empty( $current_user ) ) ?  $current_user->user_email : '';
             <textarea name="rqa_message" class="input-text " id="rqa-message" placeholder="<?php _e( 'Notes on your request...', 'yith-woocommerce-request-a-quote' ) ?>" rows="5" cols="5"></textarea>
         </p>
 
+        
+        <?php if( 'yes' == get_option('ywraq_add_privacy_checkbox', 'no') ): ?>
+            <div class="ywraq-privacy-wrapper">
+                <p class="form-row"
+                   id="rqa_privacy_description_row"><?php echo ywraq_replace_policy_page_link_placeholders( get_option( 'ywraq_privacy_description' ) ) ?></p>
+                <p class="form-row" id="rqa_privacy_row">
+                    <input type="checkbox" name="rqa_privacy" id="rqa_privacy" required>
+                    <label for="rqa_privacy"
+                           class=""><?php echo ywraq_replace_policy_page_link_placeholders(get_option('ywraq_privacy_label') ) ?>
+                        <abbr class="required" title="required">*</abbr></label>
+
+                </p>
+            </div>
+        <?php endif ?>
+
         <p class="form-row">
             <input type="hidden" id="raq-mail-wpnonce" name="raq_mail_wpnonce" value="<?php echo wp_create_nonce( 'send-request-quote' ) ?>">
             <input class="button raq-send-request" type="submit" value="<?php _e( 'Send Your Request', 'yith-woocommerce-request-a-quote' ) ?>">

@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YIT WooCommerce Request a Quote\n"
-"POT-Creation-Date: 2017-09-29 12:51+0200\n"
-"PO-Revision-Date: 2017-09-29 12:51+0200\n"
+"POT-Creation-Date: 2018-05-10 10:43+0200\n"
+"PO-Revision-Date: 2018-05-10 10:43+0200\n"
 "Last-Translator: \n"
 "Language-Team: Yithemes <plugins@yithemes.com>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
 "__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
 "_nx_noop:4c,1,2\n"
@@ -319,6 +319,40 @@ msgstr "Zur Anfrage hinzufügen"
 msgid "Hide \"Add to cart\" button"
 msgstr "Verstecke \"Hinzufügen\" Button"
 
+#: ../plugin-options/settings-options.php:92
+msgid "Form - Settings"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:97
+msgid "Add Privacy Policy"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:105
+msgid "Request a quote Privacy Policy Label"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:106
+#: ../plugin-options/settings-options.php:119
+msgid ""
+"You can use the shortcode [terms] and [privacy_policy] (from WooCommerce "
+"3.4.0)"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:110
+msgid "I have read and agree to the website terms and conditions."
+msgstr ""
+
+#: ../plugin-options/settings-options.php:118
+msgid "Request a quote Privacy Policy"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:123
+msgid ""
+"Your personal data will be used to process your request, support your "
+"experience throughout this website, and for other purposes described in our  "
+"[privacy_policy]."
+msgstr ""
+
 #: ../templates/add-to-quote.php:16
 msgid "The product is already in quote request list!"
 msgstr "Produkt ist bereits in der Anfrage Liste."
@@ -590,7 +624,7 @@ msgstr ""
 #: ../templates/admin/premium.php:448
 #, php-format
 msgid ""
-"It’s easy to add %1$sadditional and shipping costs%2$s and create a quote as "
+"It's easy to add %1$sadditional and shipping costs%2$s and create a quote as "
 "accurate as possible."
 msgstr ""
 
@@ -715,18 +749,7 @@ msgid ""
 "fast way. This means losing possible customers every day.%3$s Never fear! "
 "Our %1$sYITH WooCommerce Request a Quote allows you to create and send "
 "automatic replies to users%2$s, including a quote calculated on the original "
-"price of the products. %3$sThe perfect solution if your users don’t know the "
-"prices if you have decided to hide them. "
-msgstr ""
-
-#: ../templates/admin/premium.php:623
-msgid "Create quote by admin"
-msgstr ""
-
-#: ../templates/admin/premium.php:626
-msgid ""
-"Do you want to send a tempting offer to your customers? Today, with YITH "
-"WooCommerce Request a Quote, that’s easy!"
+"price of the products. %3$sThe perfect solution if your users don"
 msgstr ""
 
 #: ../templates/admin/premium.php:629
@@ -816,7 +839,7 @@ msgstr "Nachricht:"
 msgid "Notes on your request..."
 msgstr "Hinweise zu Ihrer Anfrage"
 
-#: ../templates/request-quote-form.php:42
+#: ../templates/request-quote-form.php:57
 msgid "Send Your Request"
 msgstr "Anfrage senden"
 
@@ -840,7 +863,7 @@ msgstr ""
 msgid "Update List"
 msgstr "Angebotliste aktualisieren"
 
-#: ../yith-woocommerce-request-a-quote.php:44
+#: ../yith-woocommerce-request-a-quote.php:46
 msgid ""
 "You can't activate the free version of YITH Woocommerce Request A Quote "
 "while you are using the premium one."
@@ -848,7 +871,7 @@ msgstr ""
 "Sie können nicht die kostenlose Version von Yith WooCommerce Request A Quote "
 "aktivieren, während Sie die Premium Version haben."
 
-#: ../yith-woocommerce-request-a-quote.php:104
+#: ../yith-woocommerce-request-a-quote.php:106
 msgid ""
 "YITH Woocommerce Request A Quote is enabled but not effective. It requires "
 "WooCommerce in order to work."

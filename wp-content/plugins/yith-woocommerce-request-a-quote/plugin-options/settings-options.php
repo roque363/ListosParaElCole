@@ -83,10 +83,54 @@ return array(
             'default' => 'no'
         ),
 
-
         'section_general_settings_end' => array(
 			'type' => 'sectionend',
 			'id'   => 'ywraq_section_general_end'
-		)
+		),
+
+        'section_form_settings'     => array(
+	        'name' => __( 'Form - Settings', 'yith-woocommerce-request-a-quote' ),
+	        'type' => 'title',
+	        'id'   => 'ywraq_section_form_settings'
+        ),
+        'add_privacy_checkbox' => array(
+	        'name'    => __( 'Add Privacy Policy', 'yith-woocommerce-request-a-quote' ),
+	        'desc'    => '',
+	        'id'      => 'ywraq_add_privacy_checkbox',
+	        'type'      => 'yith-field',
+	        'yith-type' => 'checkbox',
+	        'default' => 'no'
+        ),
+        'privacy_label' => array(
+	        'name'    => __( 'Request a quote Privacy Policy Label', 'yith-woocommerce-request-a-quote' ),
+	        'desc'    =>__('You can use the shortcode [terms] and [privacy_policy] (from WooCommerce 3.4.0)'),
+	        'id'      => 'ywraq_privacy_label',
+	        'type'      => 'yith-field',
+	        'yith-type' => 'text',
+	        'default' => __('I have read and agree to the website terms and conditions.', 'yith-woocommerce-request-a-quote'),
+	        'deps'             => array(
+		        'id'    => 'ywraq_add_privacy_checkbox',
+		        'value' => 'yes',
+		        'type'  => 'hide'
+	        ),
+        ),
+        'privacy_description' => array(
+	        'name'    => __( 'Request a quote Privacy Policy', 'yith-woocommerce-request-a-quote' ),
+	        'desc'    =>__('You can use the shortcode [terms] and [privacy_policy] (from WooCommerce 3.4.0)'),
+	        'id'      => 'ywraq_privacy_description',
+	        'type'      => 'yith-field',
+	        'yith-type' => 'textarea',
+	        'default' => __('Your personal data will be used to process your request, support your experience throughout this website, and for other purposes described in our  [privacy_policy].', 'yith-woocommerce-request-a-quote'),
+	        'deps'             => array(
+		        'id'    => 'ywraq_add_privacy_checkbox',
+		        'value' => 'yes',
+		        'type'  => 'hide'
+	        ),
+        ),
+
+        'section_form_settings_end' => array(
+	        'type' => 'sectionend',
+	        'id'   => 'ywraq_form_settings_end'
+        ),
 	)
 );

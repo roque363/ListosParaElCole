@@ -445,7 +445,7 @@
                     <img src="<?php echo YITH_YWRAQ_URL ?>assets/images/15-icon.png" alt="icon 15" />
                     <h2><?php _e('ADDITIONAL COSTS','yith-woocommerce-request-a-quote');?></h2>
                 </div>
-                <p><?php echo sprintf( __( 'It’s easy to add %1$sadditional and shipping costs%2$s and create a quote as accurate as possible.','yith-woocommerce-request-a-quote' ),'<b>','</b>' );?>
+                <p><?php echo sprintf( __( 'It\'s easy to add %1$sadditional and shipping costs%2$s and create a quote as accurate as possible.','yith-woocommerce-request-a-quote' ),'<b>','</b>' );?>
                 </p>
             </div>
             <div class="col-1">
@@ -604,7 +604,7 @@
                     <img src="<?php echo YITH_YWRAQ_URL ?>assets/images/23-icon.png" alt="icon 23" />
                     <h2><?php _e('CREATE THE QUOTES IN AN AUTOMATIC WAY','yith-woocommerce-request-a-quote');?></h2>
                 </div>
-                <p><?php echo sprintf( __( 'You may constantly receive quote requests to which you cannot reply in a fast way. This means losing possible customers every day.%3$s Never fear! Our %1$sYITH WooCommerce Request a Quote allows you to create and send automatic replies to users%2$s, including a quote calculated on the original price of the products. %3$sThe perfect solution if your users don’t know the prices if you have decided to hide them. ','yith-woocommerce-request-a-quote' ),'<b>','</b>','<br>' );?>
+                <p><?php echo sprintf( __( 'You may constantly receive quote requests to which you cannot reply in a fast way. This means losing possible customers every day.%3$s Never fear! Our %1$sYITH WooCommerce Request a Quote allows you to create and send automatic replies to users%2$s, including a quote calculated on the original price of the products. %3$sThe perfect solution if your users don\'t know the prices if you have decided to hide them. ','yith-woocommerce-request-a-quote' ),'<b>','</b>','<br>' );?>
                 </p>
             </div>
             <div class="col-1">
@@ -623,7 +623,7 @@
                     <h2><?php _e('Create quote by admin','yith-woocommerce-request-a-quote');?></h2>
                 </div>
                 <p>
-                    <?php _e('Do you want to send a tempting offer to your customers? Today, with YITH WooCommerce Request a Quote, that’s easy!','yith-woocommerce-request-a-quote');?>
+                    <?php _e('Do you want to send a tempting offer to your customers? Today, with YITH WooCommerce Request a Quote, that\'s easy!','yith-woocommerce-request-a-quote');?>
                 </p>
                 <p>
                     <?php echo sprintf( __('In a few steps, you can %1$screate a new quote from the backend%2$s of your website and forward it to the email address you entered: users will receive the quote for the list of products they have chosen and will be able to decide whether they want to %1$saccept%2$s or %1$srefuse%2$s the special offer you designed for them.','yith-woocommerce-request-a-quote'),'<b>','</b>' );?>
