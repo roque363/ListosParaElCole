@@ -13,7 +13,7 @@
  *
  * @package WordPress
  */
-/** ambiar WordPress URL */ 
+/** Cambiar WordPress URL */ 
 define('WP_HOME','https://supply-store-wordpress-roque363.c9users.io/');
 define('WP_SITEURL','https://supply-store-wordpress-roque363.c9users.io/');
 
